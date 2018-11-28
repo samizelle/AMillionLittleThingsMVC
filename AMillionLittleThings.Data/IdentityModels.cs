@@ -34,7 +34,9 @@ namespace AMillionLittleThings.Data
         }
 
         public DbSet<Book> Books { get; set; }
-
+        public DbSet<Web> Webs { get; set; }
+        public DbSet<Music> Musics { get; set; }
+        public DbSet<Streaming> Streamings { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

@@ -16,5 +16,11 @@ namespace AMillionLittleThings.WebMVC.Controllers
             var model = new StreamingListItem[0];
             return View();
         }
+
+        // GET: Streaming
+        public ActionResult Create()
+        {
+            return View();
+        }
     }
 }

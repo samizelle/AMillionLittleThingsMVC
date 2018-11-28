@@ -16,5 +16,12 @@ namespace AMillionLittleThings.WebMVC.Controllers
             var model = new BookListItem[0];
             return View();
         }
+
+        // GET: Book
+        public ActionResult Create()
+        {
+            var model = new BookListItem[0];
+            return View();
+        }
     }
 }

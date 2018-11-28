@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using AMillionLittleThings.WebMVC.Models;
+using AMillionLittleThings.Data;
 
 namespace AMillionLittleThings.WebMVC.Controllers
 {

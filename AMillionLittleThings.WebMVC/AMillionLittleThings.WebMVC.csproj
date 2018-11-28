@@ -201,7 +201,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -281,6 +280,20 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AMillionLittleThings.Data\AMillionLittleThings.Data.csproj">
+      <Project>{20fe410f-d1d1-44c3-8755-0dab0765d6ed}</Project>
+      <Name>AMillionLittleThings.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AMillionLittleThings.Models\AMillionLittleThings.Models.csproj">
+      <Project>{0b7d9650-dbf3-4c25-bd4a-483967001b94}</Project>
+      <Name>AMillionLittleThings.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AMillionLittleThings.Services\AMillionLittleThings.Services.csproj">
+      <Project>{34826080-b157-499c-a738-88375981ec1d}</Project>
+      <Name>AMillionLittleThings.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

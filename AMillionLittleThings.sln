@@ -5,6 +5,16 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMillionLittleThings.WebMVC", "AMillionLittleThings.WebMVC\AMillionLittleThings.WebMVC.csproj", "{D4201FF6-66F5-4E1A-995A-43BE4E5B474D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMillionLittleThings.Data", "AMillionLittleThings.Data\AMillionLittleThings.Data.csproj", "{20FE410F-D1D1-44C3-8755-0DAB0765D6ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMillionLittleThings.Models", "AMillionLittleThings.Models\AMillionLittleThings.Models.csproj", "{0B7D9650-DBF3-4C25-BD4A-483967001B94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMillionLittleThings.Contracts", "AMillionLittleThings.Contracts\AMillionLittleThings.Contracts.csproj", "{1EC1499E-FE2A-453D-A795-9D02DDD13F76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMillionLittleThings.Services", "AMillionLittleThings.Services\AMillionLittleThings.Services.csproj", "{34826080-B157-499C-A738-88375981EC1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMillionLittleThings.Tests", "AMillionLittleThings.Tests\AMillionLittleThings.Tests.csproj", "{2518DD75-9DDC-4A7D-AA99-89267127E44D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{D4201FF6-66F5-4E1A-995A-43BE4E5B474D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4201FF6-66F5-4E1A-995A-43BE4E5B474D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4201FF6-66F5-4E1A-995A-43BE4E5B474D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20FE410F-D1D1-44C3-8755-0DAB0765D6ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20FE410F-D1D1-44C3-8755-0DAB0765D6ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20FE410F-D1D1-44C3-8755-0DAB0765D6ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20FE410F-D1D1-44C3-8755-0DAB0765D6ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B7D9650-DBF3-4C25-BD4A-483967001B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B7D9650-DBF3-4C25-BD4A-483967001B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B7D9650-DBF3-4C25-BD4A-483967001B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B7D9650-DBF3-4C25-BD4A-483967001B94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EC1499E-FE2A-453D-A795-9D02DDD13F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC1499E-FE2A-453D-A795-9D02DDD13F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC1499E-FE2A-453D-A795-9D02DDD13F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC1499E-FE2A-453D-A795-9D02DDD13F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34826080-B157-499C-A738-88375981EC1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34826080-B157-499C-A738-88375981EC1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34826080-B157-499C-A738-88375981EC1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34826080-B157-499C-A738-88375981EC1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2518DD75-9DDC-4A7D-AA99-89267127E44D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2518DD75-9DDC-4A7D-AA99-89267127E44D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2518DD75-9DDC-4A7D-AA99-89267127E44D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2518DD75-9DDC-4A7D-AA99-89267127E44D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

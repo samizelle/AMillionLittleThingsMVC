@@ -10,16 +10,16 @@ namespace AMillionLittleThings.Data
     public class Book
     {
         [Key]
-        public int BookId { get; set; }
+        public int ItemId { get; set; }
 
         [Required]
         public Guid OwnerId { get; set; }
 
         [Required]
-        public string BookTitle { get; set; }
+        public string Title { get; set; }
 
         [Required]
-        public string BookNote { get; set; }
+        public string Note { get; set; }
 
         public bool IsImportant { get; set; }
 

@@ -10,16 +10,16 @@ namespace AMillionLittleThings.Data
     public class Music
     {
         [Key]
-        public int MusicId { get; set; }
+        public int ItemId { get; set; }
 
         [Required]
         public Guid OwnerId { get; set; }
 
         [Required]
-        public string MusicTitle { get; set; }
+        public string Title { get; set; }
 
         [Required]
-        public string MusicNote { get; set; }
+        public string Note { get; set; }
 
         public bool IsImportant { get; set; }
 

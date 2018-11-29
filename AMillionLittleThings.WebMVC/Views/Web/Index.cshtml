@@ -12,10 +12,10 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.WebNote)
+            @Html.DisplayNameFor(model => model.Title)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.WebURL)
+            @Html.DisplayNameFor(model => model.Note)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.CreatedUtc)
@@ -26,10 +26,10 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.WebNote)
+            @Html.DisplayFor(modelItem => item.Title)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.WebURL)
+            @Html.DisplayFor(modelItem => item.Note)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.CreatedUtc)

@@ -10,14 +10,14 @@ namespace AMillionLittleThings.Models
     public class BookListItem
     {
         [Display(Name ="Title")]
-        public string BookTitle { get; set; }
+        public string Title { get; set; }
 
         [Display(Name ="Book Notes")]
-        public string BookNote { get; set; }
+        public string Note { get; set; }
 
         [Display(Name ="Created")]
         public DateTimeOffset CreatedUtc { get; set; }
 
-        public override string ToString() => BookTitle;
+        public override string ToString() => Title;
     }
 }

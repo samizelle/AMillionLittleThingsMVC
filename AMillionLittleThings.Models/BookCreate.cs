@@ -13,12 +13,12 @@ namespace AMillionLittleThings.Models
         [MinLength(2, ErrorMessage = "Please enter at least 2 characters")]
         [MaxLength(100, ErrorMessage = "There are too many characters in your Title")]
         [Display(Name ="Title")]
-        public string BookTitle { get; set; }
+        public string Title { get; set; }
 
         [MaxLength(1000)]
         [Display(Name ="Author or other information")]
-        public string BookNote { get; set; }
+        public string Note { get; set; }
 
-        public override string ToString() => BookTitle;
+        public override string ToString() => Title;
     }
 }

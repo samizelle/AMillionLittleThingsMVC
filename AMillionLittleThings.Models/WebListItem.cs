@@ -10,10 +10,10 @@ namespace AMillionLittleThings.Models
     public class WebListItem
     {
         [Display(Name ="Website Name")]
-        public string WebNote { get; set; }
+        public string Title { get; set; }
 
         [Display(Name ="Website URL")]
-        public string WebURL { get; set; }
+        public string Note { get; set; }
 
         [Display(Name ="Created")]
         public DateTimeOffset CreatedUtc { get; set; }

@@ -10,16 +10,16 @@ namespace AMillionLittleThings.Data
     public class Web
     {
         [Key]
-        public int WebId { get; set; }
+        public int ItemId { get; set; }
 
         [Required]
         public Guid OwnerId { get; set; }
 
         [Required]
-        public string WebNote { get; set; }
+        public string Title { get; set; }
 
         [Required]
-        public string WebURL { get; set; }
+        public string Note { get; set; }
 
         [Required]
         public bool IsImportant { get; set; }

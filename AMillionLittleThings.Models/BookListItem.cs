@@ -9,8 +9,10 @@ namespace AMillionLittleThings.Models
 {
     public class BookListItem
     {
-        public int BookId { get; set; }
+        [Display(Name ="Title")]
         public string BookTitle { get; set; }
+
+        [Display(Name ="Book Notes")]
         public string BookNote { get; set; }
 
         [Display(Name ="Created")]

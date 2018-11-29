@@ -14,7 +14,7 @@ namespace AMillionLittleThings.WebMVC.Controllers
         public ActionResult Index()
         {
             var model = new MusicListItem[0];
-            return View();
+            return View(model);
         }
 
         // GET: Music

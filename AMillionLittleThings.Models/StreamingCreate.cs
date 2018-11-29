@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AMillionLittleThings.Models
 {
-    class StreamingCreate
+    public class StreamingCreate
     {
         [Required]
         [MinLength(2, ErrorMessage = "Please enter at least 2 characters")]

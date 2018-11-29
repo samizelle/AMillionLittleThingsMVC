@@ -272,6 +272,10 @@
     <Content Include="Views\Web\Index.cshtml" />
     <Content Include="Views\Music\Index.cshtml" />
     <Content Include="Views\Streaming\Index.cshtml" />
+    <Content Include="Views\Book\Create.cshtml" />
+    <Content Include="Views\Streaming\Create.cshtml" />
+    <Content Include="Views\Music\Create.cshtml" />
+    <Content Include="Views\Web\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

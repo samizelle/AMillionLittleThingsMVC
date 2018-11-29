@@ -12,9 +12,6 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.StreamingId)
-        </th>
-        <th>
             @Html.DisplayNameFor(model => model.StreamingTitle)
         </th>
         <th>
@@ -28,9 +25,6 @@
 
 @foreach (var item in Model) {
     <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.StreamingId)
-        </td>
         <td>
             @Html.DisplayFor(modelItem => item.StreamingTitle)
         </td>

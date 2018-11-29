@@ -19,9 +19,6 @@ namespace AMillionLittleThings.Models
         [Display(Name ="Author or other information")]
         public string BookNote { get; set; }
 
-        public override string ToString()
-        {
-            return base.ToString();
-        }
+        public override string ToString() => BookTitle;
     }
 }

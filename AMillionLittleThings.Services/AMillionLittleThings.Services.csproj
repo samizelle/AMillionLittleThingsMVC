@@ -48,11 +48,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BookService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AMillionLittleThings.Data\AMillionLittleThings.Data.csproj">
+      <Project>{20fe410f-d1d1-44c3-8755-0dab0765d6ed}</Project>
+      <Name>AMillionLittleThings.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AMillionLittleThings.Models\AMillionLittleThings.Models.csproj">
+      <Project>{0b7d9650-dbf3-4c25-bd4a-483967001b94}</Project>
+      <Name>AMillionLittleThings.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

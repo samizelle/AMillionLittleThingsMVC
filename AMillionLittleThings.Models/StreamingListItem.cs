@@ -9,8 +9,10 @@ namespace AMillionLittleThings.Models
 {
     public class StreamingListItem
     {
-        public int StreamingId { get; set; }
+        [Display(Name ="Title")]
         public string StreamingTitle { get; set; }
+
+        [Display(Name ="Note")]
         public string StreamingNote { get; set; }
 
         [Display(Name = "Created")]

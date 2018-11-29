@@ -9,8 +9,10 @@ namespace AMillionLittleThings.Models
 {
     public class WebListItem
     {
-        public int WebId { get; set; }
+        [Display(Name ="Website Name")]
         public string WebNote { get; set; }
+
+        [Display(Name ="Website URL")]
         public string WebURL { get; set; }
 
         [Display(Name ="Created")]

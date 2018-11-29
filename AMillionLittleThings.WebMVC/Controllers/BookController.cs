@@ -23,5 +23,17 @@ namespace AMillionLittleThings.WebMVC.Controllers
             var model = new BookListItem[0];
             return View();
         }
+
+        // POST: Book
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(BookCreate model)
+        {
+            if (ModelState.IsValid)
+            {
+
+            }
+            return View(model);
+        }
     }
 }
